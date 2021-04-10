@@ -1,0 +1,6 @@
+<form (ngSubmit)="sendOnomatopiaToParent">
+    <label for="onomatopee">Votre Onomatopée:</label>
+    <input type="text" name="onomatopee" [(ngModel)]="Mot" required>
+    <button type="submit">Soumettre</button>
+    <input type="reset" value="Réinitialiser le formulaire">
+</form>
